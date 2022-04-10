@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="com.transfrerobject.UserClass">
+<id name="user"></id>
+<property name="firstname"/>
+<property name="lastname"/>
+<property name="email"/>
+<property name="password"/>
+<property name="mobileno"/>
+</class>
+
+</hibernate-mapping>
